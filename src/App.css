@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Nunito", sans-serif, Helvetica, Arial;
+}
+
+body{
+  background: url('./img/background.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.App {
+  margin: 10vh auto;
+  width: 50vh;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 5px;
+  background-color: #f8f8ff;
+  color: #2c2c2c;
+}
+
+.App img{
+  width: 50px;
+  transition: 0.2s ease-in-out;
+}
+
+.App ul {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.App li {
+  margin: 0 20px;
+}
+
+.App a{
+  text-decoration: none;
+  color: #f8f8ff;
+  background-color: #2c2c2c;
+  border: 1px solid #f8f8ff;
+  padding: 10px;
+  border-radius: 5px;
+  transition: 0.3s ease-in-out;
+}
+
+.App button{
+  cursor: pointer;
+  text-decoration: none;
+  color: #f8f8ff;
+  background-color: #2c2c2c;
+  border: 1px solid #f8f8ff;
+  padding: 5px;
+  border-radius: 5px;
+  transition: 0.3s ease-in-out;
+}
+
+.App a:hover,
+button:hover {
+  color: #2c2c2c;
+  background-color: #f8f8ff;
+  border: 1px solid #2c2c2c;
+}
+
+.dark-theme img {
+  transform: rotate(90deg);
+}
+
+.dark-theme {
+  background-color: #2c2c2c;
+  color: #f8f8ff;
+}
+
+.dark-theme a,
+.dark-theme button{
+  background-color: #f8f8ff;
+  color: #2c2c2c;
+}
+
+.dark-theme a:hover,
+.dark-theme button:hover{
+  color: #f8f8ff;
+  background-color: #2c2c2c;
+  border: 1px solid #f8f8f8;
+}
