@@ -88,3 +88,9 @@ button:hover {
   background-color: #2c2c2c;
   border: 1px solid #f8f8f8;
 }
+
+@media (max-width: 550px) {
+  .App {
+    width: 75%;
+  }
+}
