@@ -9,7 +9,7 @@ const Navbar = () => {
           <Link to="/">Page #1</Link>
         </li>
         <li>
-          <Link to="/PageTwo">Page #2</Link>
+          <Link to="/pagetwo">Page #2</Link>
         </li>
       </ul>
     </nav>
